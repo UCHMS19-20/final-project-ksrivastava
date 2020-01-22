@@ -1,0 +1,22 @@
+#start game
+def start_game():
+    start = input("Would you like to play a game? ")
+    while start.lower != 'yes'
+        start = input("Try again ")
+    return start
+
+#display rules
+def show_rules():
+    rules = input("Hi! Chopsticks is usually a hand game, but today we will be playing on a computer. You will start with a finger on each hand. When you get 5 fingers on one hand, the hand is out. You cannot transfer fingers between your own hands. You can give someone more fingers. For example, if you have 2 fingers on one hand and you strike your opponent's hand with 2 fingers, your opponent would then have 4 fingers on the hand. Sound good?")
+    while start.lower != 'yes'
+        rules = input("Oh well you'll figure it out. Type "yes" to continue ")
+    return rules
+rules = Hi! Chopsticks is usually a hand game, but today we will be playing on a computer. You will start with a finger on each hand. When you get 5 fingers on one hand, the hand is out. You cannot transfer fingers between your own hands. You can give someone more fingers. For example, if you have 2 fingers on one hand and you strike your opponent's hand with 2 fingers, your opponent would then have 4 fingers on the hand.   
+
+
+player = print(input("What is your name?"))
+print ("Hi" player"! Let's get started. Press enter to continue")
+print("you have one finger on your left hand and one finger on your right hand. Your opponent has one finger on their left hand and one finger on their right hand.")
+options = {"R,L"; }
+response = input(Which of your opponents hands would you like to strike, and what hand would you like to strike with?)
+while response in options:
